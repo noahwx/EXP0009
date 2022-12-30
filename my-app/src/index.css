@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/wrw1ovl.css");
+
+* {
+    font-family: byker,sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.NavLink.active {
+    color: #2CD6D4;
+    border-bottom: 2px solid #2CD6D4;
+}
+
+/* Nav Styles */
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.Navlogo {
+    height: 5vh;
+
+    transition: transform 500ms ease;
+}
+
+.NavLinks {
+    font-weight: 500;
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+}
+
+.NavLink {
+    padding: 1vw;
+    text-decoration: none;
+    color: #000000;
+
+    transition: opacity 500ms ease;
+}
+
+.Navlogo:hover {
+    transform: scale(1.05);
+}
+
+.NavLinks:hover > .NavLink {
+    opacity: 0.3;
+}
+
+.NavLinks:hover > .NavLink:hover {
+    opacity: 1;
+}
