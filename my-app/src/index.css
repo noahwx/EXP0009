@@ -37,7 +37,7 @@
     text-decoration: none;
     color: #000000;
 
-    transition: opacity 500ms ease;
+    transition: opacity 500ms ease, border-bottom 500ms ease;
 }
 
 .Navlogo:hover {
@@ -46,8 +46,23 @@
 
 .NavLinks:hover > .NavLink {
     opacity: 0.3;
+    border-bottom: 2px solid rgba(44, 214, 212, 0);
 }
 
 .NavLinks:hover > .NavLink:hover {
     opacity: 1;
+    border-bottom: 2px solid #000000;
+}
+
+/* Home Styles */
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2vh;
+
+    height: 100vh;
+    width: 80vw;
+
+    background-color: #F3F3F3;
 }
