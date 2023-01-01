@@ -61,8 +61,58 @@
     margin: 0 auto;
     margin-top: 2vh;
 
-    height: 100vh;
+    height: auto;
     width: 80vw;
 
     background-color: #F3F3F3;
+
+    overflow: hidden;
+}
+
+.post-container {
+    position: relative;
+    margin: auto;
+    top: 2vh;
+    bottom: 1vh;
+
+    height: 35vh;
+    width: 75vw;
+}
+
+.postbox {
+    position: relative;
+    height: 20vh;
+    width: 75vw;
+    padding: 0.5em;
+
+    font-size: clamp(1rem, 2vw, 1rem);
+    font-weight: 300;
+
+    border: 2px solid #000000;
+    border-radius: 1em;
+    background: none;
+    resize: none;
+}
+
+.postbtn {
+    position: absolute;
+    right: 0;
+    margin-top: 1vh;
+    height: 5vh;
+    width: 5vw;
+
+    border-radius: 2em;
+    border: 2px solid #000000;
+
+    background: none;
+
+    font-size: clamp(1.2rem, 2vw, 1.2rem);
+    font-weight: 500;
+
+    transition: background-color 500ms ease, transform 500ms ease;
+}
+
+.postbtn:hover {
+    background-color: rgba(44, 214, 212, 0.5);
+    transform: scale(1.05);
 }
