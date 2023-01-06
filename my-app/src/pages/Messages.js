@@ -2,7 +2,9 @@ import '../index.css';
 
 const Messages = () => {
     return (
-        <h1>Messages</h1>
+        <div className='container'>
+            <h2 className='pagetitle'>Messages</h2>
+        </div>
     );
 }
  

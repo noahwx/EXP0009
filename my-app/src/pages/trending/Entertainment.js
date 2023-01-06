@@ -1,7 +1,7 @@
-import '../index.css';
+import '../../index.css';
 import { NavLink } from 'react-router-dom';
 
-const Trending = () => {
+const Entertainment = () => {
     return (
         <div className='container'>
             <div className='trendNav'>
@@ -12,9 +12,9 @@ const Trending = () => {
                     <NavLink to='/pages/trending/Entertainment' className='trendNavLink'>Entertainment</NavLink>
                 </div>
             </div>
-            <h1>Current</h1>
+            <h1>Entertainment</h1>
         </div>
     );
 }
  
-export default Trending;
+export default Entertainment;
